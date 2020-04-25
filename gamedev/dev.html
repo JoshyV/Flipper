@@ -1,0 +1,27 @@
+<head>
+	<title>Flipper</title>
+<style>
+.lol {
+	height: 50px;
+	width: 300px;
+	border: 1px solid black;
+}
+</style>
+</head>
+<body style="background-color:powderblue;">
+<input class="lol" id="myInput" type="text" value="" oninput="this.value = this.value.toUpperCase()">
+<button onclick="kil()">Submit</button>
+<p>Insert your code given by the <strong>Creator</strong> for more information <a href="https://m.me/FlipperJYV">Click here.</a>
+<script>
+function kil() {
+    var test = ".html";
+    var yes = document.getElementById("myInput").value;
+    var x = document.getElementById("myInput").innerText;
+    var per = document.getElementById("demo").innerHTML = yes + test;
+    window.location = per + window.location.hash;
+
+ }
+</script>
+<div id="demo"></div>
+</body>
+</html>
